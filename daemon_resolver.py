@@ -31,7 +31,7 @@ def banner():
 def usage( error="" ):
     sys.stdout.write( "Usage: %s\n" % sys.argv[0] )
     if len(error):
-		sys.stdout.write( "Error: %s\n" % error )
+        sys.stdout.write( "Error: %s\n" % error )
     sys.exit(-1)
 
 
